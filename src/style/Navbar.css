@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0
+}
+
+/*Bar custom*/
+.NavBar {
+    background-color: rgb(231, 233, 233);
+    margin: 0;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    gap: 2rem;
+    padding: 0 1rem;
+}
+
+/*Logo and name*/
+.Logo {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.Logo img{
+    width: 3.5rem;
+    height: 3rem;
+}
+
+.Logo h1 {
+    font-size: 1rem;
+    padding-top: 0.2rem;
+}
+
+/*Tools icon*/
+
+.Tools {
+    font-size: 2rem;
+    margin: 0;
+    display: flex;
+    padding-right: 1rem;
+}
